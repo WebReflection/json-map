@@ -1,6 +1,6 @@
 {
   "name": "@webreflection/json-map",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A basic utility to stringify and parse specialized Maps and Sets.",
   "main": "./cjs/index.js",
   "scripts": {
@@ -9,7 +9,12 @@
     "coveralls": "c8 report --reporter=text-lcov | coveralls",
     "test": "c8 node test/index.js"
   },
-  "keywords": ["Map", "Set", "JSON", "serialization"],
+  "keywords": [
+    "Map",
+    "Set",
+    "JSON",
+    "serialization"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
